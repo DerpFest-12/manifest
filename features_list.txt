@@ -1,0 +1,128 @@
+- Hacks to bypass safetynet and root detection
+- Dynamic wallpaper-based Material You themes with modern color science from ProtonAOSP
+- New DerpFest Walls made for Material You
+- Set Google Sans as body, headline and lockscreen font
+- Reduced gap below spacebar in GBoard
+- Black theme switch for dark mode
+- Lineage LiveDisplay, Powershare and Touch HAL support
+- Brightness slider customizations
+- Statusbar icons tuner
+- Option to Display Data Disabled Indicator Icon
+- Make roaming indicator optional
+- Updated LTE+ and 4G+ icon as per new Silk design
+- Toggle for old style mobile data indicators
+- DerpFest logo switch for the status bar
+- Custom Carrier Label & Carrier Label Placement
+- 3 finger swipe to screenshot
+- Long press power button to toggle flashlight
+- Long press volume button to skip track
+- Advanced reboot options
+- Battery light toggle
+- Battery icon styles (circle/bigcircle/dotted/bigdotted/bar/hidden)
+- QS quick pulldown
+- Switch for Haptic Feedback to QS tiles
+- Animations for quick settings tiles
+- Interpolator options for qs tiles animation
+- Deep sleep info in uptime preference
+- Lockscreen visualizer feature with customization options
+- Bunch of useful QS tiles in addition to AOSP ones:
+  - AOD
+  - Caffeine
+  - Data Switch
+  - HeadsUp (peek notifications)
+  - Location modes
+  - NFC tile for devices with nfc
+  - USB tethering
+  - Screenshot (partial/full)
+  - Sound (ringer modes)
+- OOS-inspired Network speed indicator with customization options
+- Lockscreen media art and blur level controls
+- Double tap to sleep on statusbar, launcher, lockscreen
+- Finer control over font size
+- Additional charging info on lockscreen
+- Statusbar bluetooth battery level
+- Multi SIM ringtone setting
+- Screen recorder stop dot and low quality options
+- Delete button for screenshots
+- Pixel offline charging animation (for supported devices)
+- One click to add/remove QS tiles
+- Added avatar to search bar and aligned it with homepage title
+- Increasing ring feature
+- Unlinked ringtone and notification volumes
+- Incall vibration options
+- Allow to suppress notifications sound/vibration if screen is ON
+- Less boring heads up option
+- Allow to disable battery light
+- Volume Long Press Skip Tracks
+- Wake on plug switch
+- Allow disable of screenshot shutter sound
+- Reset battery stats
+- Double tap to sleep on lockscreen
+- Double tap to sleep on statusbar
+- Enable DT2S on lockscreen based on DT2W
+- Use DT2W setting also to wake from AOD
+- Toggle to disable alert slider notifications
+- Allow toggling location privacy indicator
+- Allow toggling screen off fod
+- Allow customizing the length of gesture navbar
+- Allow adjusting back gesture height
+- Button to AppErrorDialog to upload crash information to Memochō
+- Show a link to Google Play in installed app info
+- Open app when clicking on icon in App Info
+- Added missing illustration for camera gesture
+- Allow devices to configure sensor location for fingerprint
+- Add back SELinux info
+- Show battery estimate in QS
+- Toast icon switch
+- Option to mute media with gesture
+- Enabled lockscreen media artwork even if qs media is enabled
+- Lockscreen quick unlock
+- AOption to scramble pin layout when unlocking
+- Fingerprint authentication vibration switch
+- Make Udfps haptic feedback optional
+- Support for displaying Volte icon
+- User Selectable VoLTE Icons
+- Dedicated Wi-Fi and cellular data tiles in quick settings
+- Added delete action chip intent for screenshot
+- Added back the delete action for the screen recorder notification
+- Name Cellular Tile based on carrier
+- Save recordings in ScreenRecords folder
+- Removed default aspect ratio limit for old apps
+- Removed restrictions for system audio record
+- Allow adjusting screen density to smaller sizes
+- Added time spent in app from Wellbeing
+- Added refresh rate preferences
+- Protect sensitive info on About device
+- Adaptive dual-tone light and dark themes for quick settings and power menu
+- Custom ripple animation tuned for responsiveness
+- Seamless font weight animations
+- Subpixel text positioning for better kerning
+- Fewer distractions throughout the system
+- High-quality color blending and surface color generation
+- Higher-quality Night Light and Ambient EQ using modern color science
+- Gradual, less jarring transitions when turning Night Light on/off
+- Improved memory management
+- Secure quick settings
+- Modern privacy indicators for location, camera, and microphone
+- Camera and microphone privacy toggles
+- Minor hardening from GrapheneOS
+- AI-powered back gesture
+- Memory usage in Settings
+- Support for signature spoofing respectively MicroG
+- Optimizations and fixes from AOSPA, ProtonAOSP & upstream AOSP master
+
+- DerpLauncher:
+  - Adapted home settings UI to Android 12 style
+  - Transformed quickspace to Android 12 style
+  - Now Playing status feature for quickspace
+  - Support for themed icons (including third party icons)
+  - Implemented Hotseat Pissel Bar
+  - Widget and popup menu item colors based on underlying wallpaper area
+  - Moved clear all button to actions view
+  - SeekBar to customize recent apps background opacity
+  - Option to control wallpaper zooming
+  - Toggle for DT2S
+
+- CAF functionality improvements/enhancements:
+  - Camera extensions
+  - WiFi display/miracast
