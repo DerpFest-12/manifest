@@ -156,6 +156,9 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="derp" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x-86" remote="derp-gitlab" revision="12" clone-depth="1" />
+
   <!-- System -->
   <project path="system/apex" name="system_apex" groups="pdk" remote="derp" />
   <project path="system/core" name="system_core" groups="pdk" remote="derp" />
