@@ -16,6 +16,10 @@
            fetch="https://github.com/DerpFest-Devices"
            revision="12" />
 
+  <remote  name="aex"
+           fetch="https://github.com/aex-tmp"
+           revision="refs/heads/12.x" />
+
   <!-- DerpFest -->
   <!-- Rootdir -->
   <project path="art" name="art" groups="pdk" remote="derp" />
@@ -84,6 +88,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
@@ -102,6 +108,9 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
+  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-msm8996" />
   <!--project path="hardware/qcom-caf/bt" name="hardware_qcom_bt" groups="qcom" remote="derp" revision="12-caf" /-->
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="derp" revision="12-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="derp" revision="12-caf-msm8998" />
