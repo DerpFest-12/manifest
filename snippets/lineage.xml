@@ -5,6 +5,9 @@
            fetch="ssh://git@github.com/LineageOS"
            revision="refs/heads/lineage-18.1" />
 
+  <!-- External -->
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
+
   <!-- LiveDisplay -->
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
 
