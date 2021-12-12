@@ -3,7 +3,7 @@
 
   <remote  name="lineage"
            fetch="ssh://git@github.com/LineageOS"
-           revision="refs/heads/lineage-18.1" />
+           revision="refs/heads/lineage-19.0" />
 
   <!-- External -->
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
