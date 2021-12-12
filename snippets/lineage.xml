@@ -28,7 +28,7 @@
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- System -->
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+  <!--<project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />-->
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
