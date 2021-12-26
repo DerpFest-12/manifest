@@ -120,6 +120,7 @@
 
   <!-- System -->
   <remove-project name="platform/system/apex" />
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/logging" />
