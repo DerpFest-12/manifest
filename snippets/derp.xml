@@ -157,6 +157,7 @@
   <project path="packages/apps/SimIcons" name="simrat39/icon-pack" remote="github" revision="master" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs" remote="derp" />
   <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="derp" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="derp" />
