@@ -61,6 +61,7 @@
   <project path="external/colorkt" name="external_colorkt" groups="pdk" remote="derp" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="derp" />
   <project path="external/exfatprogs" name="external_exfatprogs" groups="pdk" remote="derp" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="derp" />
   <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk" remote="derp" />
   <project path="external/libcxx" name="external_libcxx" groups="pdk" remote="derp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="derp" />
