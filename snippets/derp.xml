@@ -53,6 +53,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="12-legacy-um" remote="derp" />
 
   <!-- External -->
+  <project path="external/AndroidSystemBlur" name="external_AndroidSystemBlur" groups="pdk" remote="derp" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="derp" />
   <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" groups="pdk" remote="derp" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" groups="pdk" remote="derp" />
