@@ -82,6 +82,7 @@
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="derp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="derp" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="pdk" remote="derp" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="derp" revision="12-caf" />
