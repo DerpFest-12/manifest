@@ -231,6 +231,12 @@
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="derp" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="derp" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk-qcom" remote="derp" />
+  <project path="vendor/qrcode/zxing" name="zxing-android-embedded" remote="derp" >
+    <linkfile src="zxing-android-embedded/res-orig/*" dest="vendor/support/res-orig" />
+    <linkfile src="zxing-android-embedded/res/*" dest="vendor/support/res-qr" />
+    <linkfile src="zxing-android-embedded/src/com/google/zxing/*" dest="vendor/support/src/com/google/zxing" />
+    <linkfile src="zxing-android-embedded/src/com/journeyapps/barcodescanner/*" dest="vendor/support/src/com/journeyapps/barcodescanner" />
+  </project>
   <project path="vendor/support" name="vendor_support" remote="derp" />
 
 </manifest>
