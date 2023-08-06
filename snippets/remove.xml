@@ -73,6 +73,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/angle" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />

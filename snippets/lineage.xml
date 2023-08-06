@@ -14,6 +14,7 @@
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
+  <project path="external/angle" name="android_external_angle" remote="lineage" />
 
   <!-- Framework -->
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
