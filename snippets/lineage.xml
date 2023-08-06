@@ -16,6 +16,7 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
   <project path="external/angle" name="android_external_angle" remote="lineage" />
   <project path="external/freetype" name="android_external_freetype" remote="lineage" />
+  <project path="external/aac" name="android_external_aac" remote="lineage" />
 
   <!-- Framework -->
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
@@ -37,6 +38,7 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="lineage" />
   <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" remote="lineage" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
@@ -50,7 +52,7 @@
 
   <!-- System -->
   <project path="system/libhidl" name="android_system_libhidl" remote="lineage" />
-  <!--<project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />-->
+  <project path="system/ca-certificates" name="android_system_ca-certificates" remote="lineage" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
